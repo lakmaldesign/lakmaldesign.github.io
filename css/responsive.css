@@ -1,0 +1,58 @@
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+
+}
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.nivoSlider img  {
+		height: 530px !important;
+	}
+		.project_dec{
+		margin-bottom: 30px;
+	}
+}
+/* Large Mobile :480px. */
+@media (max-width: 767px) {
+	.navbar-fixed-top.fixed{
+		padding: 0;
+	}
+	.nivoSlider img  {
+		height: 470px !important;
+	}
+	.sider_text .second_heading{
+		font-size: 30px;	
+	}
+	
+	h2,.section_title h2 {
+	  font-size: 25px;
+	}	
+	h4{
+		font-size: 16px;
+	}
+	.project_dec{
+		margin-bottom: 30px;
+	}
+	.statistics-content{
+		margin-bottom: 30px;
+	}
+
+}
+/* small mobile :320px. */
+@media only screen and (max-width: 600px) {
+	.our_work_menu ul li{
+		margin-bottom: 14px;
+	}
+	#newsletter input[type="text"] {
+	  margin: auto auto 20px;
+	
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.buy_now_title a.btn {
+		display: block;
+		margin-top: 30px;
+	}
+}
